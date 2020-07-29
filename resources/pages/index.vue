@@ -1867,7 +1867,7 @@
                     <div class="col-auto">
                       <!-- Avatar -->
                       <!-- <a href="profile-posts.html" class="avatar"> -->
-                      <nuxt-link :to="`/store/${shop.name}`" class="avatar">
+                      <nuxt-link :to="`/store/${shop.username}`" class="avatar">
                         <img
                           v-if="shop.image"
                           :src="shop.image"
